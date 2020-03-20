@@ -233,7 +233,7 @@ class Sidebar extends Component<Props> {
                     <div className="sidebarHeaderContainer end">
                         <span className="sidebarHeader">{t('sidebar.settings')}</span>
                     </div>
-                    {debug &&
+                    {!debug &&
                         <div className="sidebarItem">
                             <Link
                                 activeClassName="sidebar-active"
